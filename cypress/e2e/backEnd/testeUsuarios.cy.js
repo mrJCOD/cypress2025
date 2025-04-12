@@ -42,7 +42,7 @@ describe('Listar usuarios cadastrados', () => {
     it('Buscar usuario por ID Inexistente - Falha', () => {
         cy.api({
             method: 'GET',
-            url: baseUrl + '/0uxuPY0cbmQhpEz12',
+            url: baseUrl + '/0uxuPY0cbmQhpEz5',
             headers: { 'Accept-Language': 'en-us', },
             failOnStatusCode: false,
         }).then((response) => {

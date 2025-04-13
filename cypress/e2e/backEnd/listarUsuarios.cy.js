@@ -34,7 +34,6 @@ describe('Listar usuarios cadastrados', () => {
             expect(response.body.usuarios[0].email).to.eq('fulano@qa.com');
             expect(response.body.usuarios[0].password).to.eq('teste');
             expect(response.body.usuarios[0].administrador).to.eq('true');
-
         })
     });
     it('Buscar usuario por ID Inexistente - Falha', () => {
